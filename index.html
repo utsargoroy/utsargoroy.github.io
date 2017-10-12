@@ -1,29 +1,20 @@
-<!doctype html>
-<html>
-	<head>
-		<title>Home</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="style.css" type="text/css" >
-		<script src="https://use.fontawesome.com/d292af0a66.js"></script>
-	</head>
+---
+layout: default
+---
 
-	<body>
-		<div class="container-fluid">
-			<div style="background: url(images/header-bg.png) no-repeat; color:wheat; overflow-y: auto; height: 100vh;box-shadow: 2px 2px 4px grey;background-size: 100% 100%; border-radius: 0 !important;" class="jumbotron text-center">
-				<h1>Hello World!</h1>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
