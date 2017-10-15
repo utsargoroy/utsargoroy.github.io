@@ -5,7 +5,7 @@ layout: default
 modal-id: 2
 date: 2017-09-22
 img: luna.png
-thumbnail: luna.png
+thumbnail: lunablog-thumb.png
 alt: image-alt
 project-date: September 2014
 client: Sharma Luna
