@@ -1,0 +1,15 @@
+---
+title: A Blog
+subtitle: Website Design
+layout: default
+modal-id: 2
+date: 2017-09-22
+img: luna.png
+thumbnail: luna.png
+alt: image-alt
+project-date: September 2014
+client: Sharma Luna
+category: Web Development
+description: This is a WordPress Project. Various hacks have been done in design and other functionalities. Applied many small code snippet to create services like visit counting, convert dates etc.<br><a href="https://bn.sharmaluna.com" target="_blank">www.bn.sharmaluna.com</a>
+
+---

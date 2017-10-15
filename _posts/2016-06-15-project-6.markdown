@@ -1,0 +1,15 @@
+---
+title: Mangropedia
+subtitle: Graphic Design
+layout: default
+modal-id: 6
+date: 2016-06-15
+img: mangropedia.png
+thumbnail: mangropedia-thumb.png
+alt: image-alt
+project-date: June 2016
+client: Mangropedia
+category: Web Development
+description: An online open encyclopedia on mangrove forest and ecology.<br><a href="https://mangropedia.org" target="_blank">www.mangropedia.org</a>
+
+---

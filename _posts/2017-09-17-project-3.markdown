@@ -1,0 +1,15 @@
+---
+title: Another Landing page
+subtitle: Website Design
+layout: default
+modal-id: 3
+date: 2017-09-17
+img: luna-landing.png
+thumbnail: luna-thumb.png
+alt: image-alt
+project-date: September 2014
+client: Sharma Luna
+category: Web Development
+description: Another simple landing page.<br><a href="https://sharmaluna.com" target="_blank">www.sharmaluna.com</a>
+
+---

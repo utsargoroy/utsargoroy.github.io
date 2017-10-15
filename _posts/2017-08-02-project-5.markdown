@@ -1,0 +1,15 @@
+---
+title: Flexy Framework
+subtitle: Website Design
+layout: default
+modal-id: 5
+date: 2017-08-02
+img: flexy.png
+thumbnail: flexy-thumb.png
+alt: image-alt
+project-date: August 2017
+client: Self
+category: Web Development
+description: My very own Flex-box based CSS framework. I made it for my own design purpose and successfully applied in may design.<br><a href="https://flexy-framework.github.io" target="_blank">www.flexy-framework.github.io</a>
+
+---

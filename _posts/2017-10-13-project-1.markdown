@@ -10,6 +10,6 @@ alt: image-alt
 project-date: Oct 2017
 client: Self
 category: Web Development
-description: It's an experimental design of my landing page. Completely static site. Used Javascript an CSS techiques for animation and effects. <br><a href="https://utsargo.work">www.utsargo.work</a>
+description: It's an experimental design of my landing page. Completely static site. Used Javascript an CSS techiques for animation and effects. <br><a href="https://utsargo.work" target="_blank">www.utsargo.work</a>
 
 ---

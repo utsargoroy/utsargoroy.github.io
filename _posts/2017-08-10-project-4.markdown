@@ -1,0 +1,15 @@
+---
+title: A Jekyll Theme
+subtitle: Website Design
+layout: default
+modal-id: 4
+date: 2017-08-10
+img: jibanananda.png
+thumbnail: jibanananda-thumb.png
+alt: image-alt
+project-date: August 2017
+client: Self
+category: Web Development
+description: A theme for Jekyll.<br><a href="https://jibanananda.ml" target="_blank">www.jibanananda.ml</a>
+
+---
