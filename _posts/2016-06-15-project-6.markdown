@@ -1,6 +1,6 @@
 ---
 title: Mangropedia
-subtitle: Graphic Design
+subtitle: Website Design
 layout: default
 modal-id: 6
 date: 2016-06-15
