@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans|Merriweather:400,400i,700|Source+Code+Pro");
+body{
+  font-family: "Noto Sans Bengali UI", "Open Sans" !important;
+}
+a{
+  color: white !important;
+  text-decoration: none !important
+}
+
+a:hover{
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+.contact{
+  background: #CBCAC7;
+  padding: 20px;
+  top: 40%;
+  left: 33.33%;
+  position: absolute !important;
+  border-radius: 5px;
+}
+.logo{
+  top: 50% !important;
+  left: 50% !important;
+  height: 150px !important;
+  width: 150px !important;
+  line-height: 150px !important;
+  font-size: 5em !important;
+  background: #730803 !important;
+}
+
+.logo:hover{
+  background: rgba(115, 8, 3, 0.74) !important;
+  width: 150px !important;
+  height: 150px !important;
+  line-height: 15xpx !important;
+  font-weight: normal !important;
+}
+.center {
+  font-size: 14pt;
+  display: block;
+    color: #CBCAC7;
+    text-align: center;
+    line-height: 120px;
+    vertical-align: middle;
+    background-color: rgba(171, 171, 173, 0.16);
+    margin: 0 auto;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    transition: 2s;
+  }
+  .center:hover{
+    color: white;
+    background: rgba(171, 171, 173, 0.39);
+    line-height: 105pz;
+    font-weight: bold;
+    transition: 2s;
+  }
+.btn-lang{
+  display: block;
+    width: auto;
+    text-align: center;
+    top: 30px;
+    position: absolute;
+    left: 30px;
+    background: #2e2d2e;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 2s;
+
+}
+.btn-lang:hover{
+  background: #8F8C8C;
+  font-weight: 600;
+  transition: 2s;
+}
+  .btn-media{
+    width: 50px !important;
+    height: 50px !important;
+    line-height: 50px !important;
+  }
+
+  .btn-media:hover{
+    height: 50px !important;
+    width: 50px !important;
+  }
+
+  .fb{
+    background: #3b5998 !important;
+    color: white !important;
+  }
+
+  .gplus{
+    background: #E30606 !important;
+    color: white !important;
+  }
+
+  .git{
+    background: #AFADAD !important;
+    color: #0A0909 !important;
+  }
+
+  .git a, .git a:hover{
+    color: #0A0909 !important;
+  }
+
+
+ 
+  .wave:before, .wave:after {
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0);
+            transform: translate(-50%, -50%) scale(0);
+    border: 3px solid white;
+    display: none;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+  }
+  .wave:hover:before {
+    display: block;
+    -webkit-animation: spread-fade 1s ease-in infinite;
+            animation: spread-fade 1s ease-in infinite;
+  }
+  .wave:hover:after {
+    display: block;
+    -webkit-animation: spread-fade 1s 0.2s ease-in infinite;
+            animation: spread-fade 1s 0.2s ease-in infinite;
+  }
+  
+  @-webkit-keyframes spread-fade {
+    0% {
+      -webkit-transform: translate(-50%, -50%) scale(0);
+              transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translate(-50%, -50%) scale(1);
+              transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes spread-fade {
+    0% {
+      -webkit-transform: translate(-50%, -50%) scale(0);
+              transform: translate(-50%, -50%) scale(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translate(-50%, -50%) scale(1);
+              transform: translate(-50%, -50%) scale(1);
+      opacity: 0;
+    }
+  }
+  
+  @media (max-width:576px){
+    .contact,#page-404{
+      left: auto !important;
+    }
+    .btn-lang{
+      top: 10px !important;
+      left: 10px !important
+    }
+  }
+
+  .footer{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+    color: rgba(86, 85, 85, 0.33);
+    transition: 2s;
+  }
+  .footer:hover{
+    color: rgb(197, 196, 196);
+    transition: 2s;    
+  }
+
+  .copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
+
+  @media (max-width:320px){
+    .footer{
+      left: 10px;
+      text-align: center;
+    }
+  }
+.page-404{
+  background: #CBCAC7;
+  padding: 20px;
+  top: 40%;
+  left: 25;
+  position: absolute !important;
+  border-radius: 5px;
+}
