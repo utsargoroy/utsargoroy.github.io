@@ -10,7 +10,7 @@ alt: image-alt
 project-date: apr 2018
 client: poonjo.com
 category: Web Development, WordPress Project, WordPress Theme
-description: A complete bookstore project in WordPress<br>$
+description: A complete bookstore project in WordPress<br>
 
 ---
 
